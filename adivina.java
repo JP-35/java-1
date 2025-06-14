@@ -1,7 +1,7 @@
 package adivina;
 
-import java.util.Random;
-import java.util.Scanner;
+import java.util.Random; //se importa la galeria random
+import java.util.Scanner; //se importa la galeria scanner
 
 public class adivina {
 
@@ -10,7 +10,7 @@ public class adivina {
 		Random random = new Random();
 		Scanner scanner = new Scanner(System.in);
 		
-		int num = random.nextInt(101);
+		int num = random.nextInt(101); // se genera un numero aleatorio entre 0 y 100
 		int intento;
 		
 		System.out.println("intente adivinar el num");
